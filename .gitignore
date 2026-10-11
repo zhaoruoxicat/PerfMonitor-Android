@@ -1,0 +1,51 @@
+# Gradle / Kotlin caches and generated build output
+.gradle/
+.kotlin/
+**/build/
+.externalNativeBuild/
+.cxx/
+captures/
+
+# Local Android SDK paths and IDE configuration
+local.properties
+.idea/
+*.iml
+.vscode/
+
+# APKs, app bundles and packaging artifacts
+*.apk
+*.aab
+*.apks
+*.ap_
+
+# Signing keys and private configuration
+*.jks
+*.keystore
+*.p12
+*.pfx
+keystore.properties
+key.properties
+signing.properties
+secrets.properties
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Local tooling / credentials
+.agents/
+.codex/
+.aws/
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.hprof
+*.swp
+*.swo
+*~
+
+# Keep the Gradle Wrapper so the project can build after cloning
+!gradle/wrapper/gradle-wrapper.jar

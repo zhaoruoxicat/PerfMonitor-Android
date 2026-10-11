@@ -1,0 +1,18 @@
+# Normalize text in the repository and use LF for cross-platform source files.
+* text=auto eol=lf
+
+# Windows command scripts use CRLF; Unix Gradle wrapper must use LF.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+gradlew text eol=lf
+
+# Binary assets must not undergo line-ending conversion.
+*.jar binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.ttf binary
+*.otf binary
