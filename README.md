@@ -3,6 +3,8 @@
 将闲置 Android 手机变成桌面时钟和电脑性能显示器。
 
 应用以横屏全屏方式运行：电脑性能 API 可访问时显示 CPU、内存和 GPU 使用情况；接口不可用时自动回到大字时钟。前台保持屏幕常亮，适合旧手机长期摆放在桌面使用。
+<img width="2400" height="1080" alt="offline" src="https://github.com/user-attachments/assets/f0cdf694-e204-4e82-a015-34b174123a2b" />
+<img width="2400" height="1080" alt="performance-date" src="https://github.com/user-attachments/assets/dab67273-bd70-404c-951e-76cb3933cd0f" />
 
 ## 功能
 
